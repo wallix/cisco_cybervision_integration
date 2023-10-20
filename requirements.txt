@@ -1,0 +1,6 @@
+# these requirements are added to the packaged distribution to be executed onto Cisco Cybervision appliances.
+# It includes dependencies that are not already available to cybervision.
+
+frozendict ~= 2.3.4
+python-dateutil ~= 2.7.0
+typing_extensions ~= 4.3.0

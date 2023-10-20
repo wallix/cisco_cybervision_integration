@@ -1,0 +1,89 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from cybervision_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from cybervision_client.model.ack_informations import AckInformations
+from cybervision_client.model.activities_risk_struct import ActivitiesRiskStruct
+from cybervision_client.model.activity import Activity
+from cybervision_client.model.add_extra_field_body import AddExtraFieldBody
+from cybervision_client.model.add_extra_field_resp import AddExtraFieldResp
+from cybervision_client.model.aggregated_component import AggregatedComponent
+from cybervision_client.model.aggregation import Aggregation
+from cybervision_client.model.baseline import Baseline
+from cybervision_client.model.category import Category
+from cybervision_client.model.center import Center
+from cybervision_client.model.center_status import CenterStatus
+from cybervision_client.model.component import Component
+from cybervision_client.model.component_credential import ComponentCredential
+from cybervision_client.model.component_credentials import ComponentCredentials
+from cybervision_client.model.components import Components
+from cybervision_client.model.count_differences import CountDifferences
+from cybervision_client.model.custom_name_body import CustomNameBody
+from cybervision_client.model.default_severities import DefaultSeverities
+from cybervision_client.model.detailed_tag import DetailedTag
+from cybervision_client.model.detailed_tags import DetailedTags
+from cybervision_client.model.device import Device
+from cybervision_client.model.device_credential import DeviceCredential
+from cybervision_client.model.device_credentials import DeviceCredentials
+from cybervision_client.model.device_risk_score_struct import DeviceRiskScoreStruct
+from cybervision_client.model.device_type_risk_struct import DeviceTypeRiskStruct
+from cybervision_client.model.difference import Difference
+from cybervision_client.model.extra_field import ExtraField
+from cybervision_client.model.extra_field_label import ExtraFieldLabel
+from cybervision_client.model.extra_field_type import ExtraFieldType
+from cybervision_client.model.extra_fields import ExtraFields
+from cybervision_client.model.flow import Flow
+from cybervision_client.model.flow_endpoint import FlowEndpoint
+from cybervision_client.model.flows import Flows
+from cybervision_client.model.group import Group
+from cybervision_client.model.group_ancestor import GroupAncestor
+from cybervision_client.model.group_risk_struct import GroupRiskStruct
+from cybervision_client.model.json_vulnerability_full_infos_for_device import JsonVulnerabilityFullInfosForDevice
+from cybervision_client.model.json_vulnerability_link import JsonVulnerabilityLink
+from cybervision_client.model.light_device import LightDevice
+from cybervision_client.model.network_nodes import NetworkNodes
+from cybervision_client.model.preset import Preset
+from cybervision_client.model.preset_badge import PresetBadge
+from cybervision_client.model.preset_center_filter import PresetCenterFilter
+from cybervision_client.model.preset_data_info import PresetDataInfo
+from cybervision_client.model.preset_filters import PresetFilters
+from cybervision_client.model.preset_group import PresetGroup
+from cybervision_client.model.preset_group_filter import PresetGroupFilter
+from cybervision_client.model.preset_highlight import PresetHighlight
+from cybervision_client.model.preset_network import PresetNetwork
+from cybervision_client.model.preset_network_filter import PresetNetworkFilter
+from cybervision_client.model.preset_risk_score import PresetRiskScore
+from cybervision_client.model.preset_risk_score_filter import PresetRiskScoreFilter
+from cybervision_client.model.preset_sensor_filter import PresetSensorFilter
+from cybervision_client.model.preset_settings import PresetSettings
+from cybervision_client.model.preset_tag import PresetTag
+from cybervision_client.model.preset_tag_filter import PresetTagFilter
+from cybervision_client.model.property_tuple import PropertyTuple
+from cybervision_client.model.property_tuple_by_position import PropertyTupleByPosition
+from cybervision_client.model.property_tuple_with_array_of_values import PropertyTupleWithArrayOfValues
+from cybervision_client.model.property_tuple_with_array_of_values_by_position import PropertyTupleWithArrayOfValuesByPosition
+from cybervision_client.model.sensor import Sensor
+from cybervision_client.model.short_component import ShortComponent
+from cybervision_client.model.simple_response import SimpleResponse
+from cybervision_client.model.tag import Tag
+from cybervision_client.model.traffic_direction import TrafficDirection
+from cybervision_client.model.uuid import UUID
+from cybervision_client.model.update_extra_field_body import UpdateExtraFieldBody
+from cybervision_client.model.user_property_tuple import UserPropertyTuple
+from cybervision_client.model.variable import Variable
+from cybervision_client.model.variable_access import VariableAccess
+from cybervision_client.model.variable_access_component import VariableAccessComponent
+from cybervision_client.model.variable_activity_monitor import VariableActivityMonitor
+from cybervision_client.model.versions import Versions
+from cybervision_client.model.vulnerabilities_risk_struct import VulnerabilitiesRiskStruct
+from cybervision_client.model.vulnerability_detail import VulnerabilityDetail
+from cybervision_client.model.vulnerability_link import VulnerabilityLink

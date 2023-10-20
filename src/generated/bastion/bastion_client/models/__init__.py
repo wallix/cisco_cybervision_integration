@@ -1,0 +1,64 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from bastion_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from bastion_client.model.account_result import AccountResult
+from bastion_client.model.active_directory_scan_for_accounts import ActiveDirectoryScanForAccounts
+from bastion_client.model.active_directory_scan_for_devices import ActiveDirectoryScanForDevices
+from bastion_client.model.ad_scan_for_devices_progress import AdScanForDevicesProgress
+from bastion_client.model.ad_user_authentication import AdUserAuthentication
+from bastion_client.model.azure_certificate_credential import AzureCertificateCredential
+from bastion_client.model.azure_client_secret_credential import AzureClientSecretCredential
+from bastion_client.model.azure_credential import AzureCredential
+from bastion_client.model.azure_equal_filter import AzureEqualFilter
+from bastion_client.model.azure_filter import AzureFilter
+from bastion_client.model.azure_regex_filter import AzureRegexFilter
+from bastion_client.model.azure_scan_for_devices import AzureScanForDevices
+from bastion_client.model.azure_scan_for_devices_progress import AzureScanForDevicesProgress
+from bastion_client.model.device_get import DeviceGet
+from bastion_client.model.device_post import DevicePost
+from bastion_client.model.device_put import DevicePut
+from bastion_client.model.device_result import DeviceResult
+from bastion_client.model.devices_scan_for_accounts import DevicesScanForAccounts
+from bastion_client.model.devices_scan_for_accounts_progress import DevicesScanForAccountsProgress
+from bastion_client.model.dns_resolution import DnsResolution
+from bastion_client.model.local_domains import LocalDomains
+from bastion_client.model.localdomain_get import LocaldomainGet
+from bastion_client.model.network_protocol import NetworkProtocol
+from bastion_client.model.networks_scan_for_devices import NetworksScanForDevices
+from bastion_client.model.networks_scan_for_devices_progress import NetworksScanForDevicesProgress
+from bastion_client.model.protocol_result import ProtocolResult
+from bastion_client.model.rawtcpip_service import RawtcpipService
+from bastion_client.model.rawtcpip_service_multi_tunneling import RawtcpipServiceMultiTunneling
+from bastion_client.model.rawtcpip_service_multi_tunneling_additional_interface import RawtcpipServiceMultiTunnelingAdditionalInterface
+from bastion_client.model.rdp_service import RdpService
+from bastion_client.model.rlogin_service import RloginService
+from bastion_client.model.scan_job import ScanJob
+from bastion_client.model.scan_job_configuration import ScanJobConfiguration
+from bastion_client.model.scan_job_progress import ScanJobProgress
+from bastion_client.model.scan_job_progress_ad_for_accounts import ScanJobProgressAdForAccounts
+from bastion_client.model.scan_job_result import ScanJobResult
+from bastion_client.model.service import Service
+from bastion_client.model.service_get import ServiceGet
+from bastion_client.model.service_post_rawtcpip_multi_tunneling import ServicePostRawtcpipMultiTunneling
+from bastion_client.model.service_post_rawtcpip_multi_tunneling_additional_interface import ServicePostRawtcpipMultiTunnelingAdditionalInterface
+from bastion_client.model.service_rawtcpip import ServiceRawtcpip
+from bastion_client.model.service_rdp import ServiceRdp
+from bastion_client.model.service_rlogin import ServiceRlogin
+from bastion_client.model.service_ssh import ServiceSsh
+from bastion_client.model.service_telnet import ServiceTelnet
+from bastion_client.model.service_vnc import ServiceVnc
+from bastion_client.model.ssh_service import SshService
+from bastion_client.model.tag import Tag
+from bastion_client.model.tags import Tags
+from bastion_client.model.telnet_service import TelnetService
+from bastion_client.model.vnc_service import VncService
